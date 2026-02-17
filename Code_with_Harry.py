@@ -176,7 +176,7 @@ ar2 = np.array([[1,.4,3,4],
 
 ar+ar2
 
-ar#ar2
+ar*ar2
 
 np.sqrt(ar2)
 
@@ -204,8 +204,8 @@ py_ar = [0,3,4,5,2]
 
 np_ar = np.array(py_ar)
 
-sys.getsizeof(1)#len(py_ar)
+sys.getsizeof(1)*len(py_ar)
 
-np_ar.itemsize#np_ar.size
+np_ar.itemsize*np_ar.size
 
 np_ar.tolist()
